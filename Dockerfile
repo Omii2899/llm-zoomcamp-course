@@ -1,3 +1,2 @@
 FROM ollama/ollama
-
-COPY /ollama_files /root/.ollama/
+ENV TOKENIZERS_PARALLELISM=False
